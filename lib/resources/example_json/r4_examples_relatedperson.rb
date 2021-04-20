@@ -71,8 +71,21 @@ module Cerner
           'id': 'CI-490017058-0-0',
           'extension': [
             {
+              'valuePeriod': {
+                'start': '2016-12-19T16:44:25.000Z',
+                'end': '2022-05-01T16:56:56.000Z'
+              },
+              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+            },
+            {
               'valueCodeableconcept': {
                 'coding': [
+                  {
+                    'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                    'cod': '159',
+                    'display': 'Sister',
+                    'userSelected': true
+                  },
                   {
                     'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                     'code': 'SIS',
@@ -83,13 +96,6 @@ module Cerner
                 'text': 'Sister'
               },
               'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-            },
-            {
-              'valuePeriod': {
-                'start': '2016-12-19T16:44:25.000Z',
-                'end': '2022-05-01T16:56:56.000Z'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
             }
           ],
           'coding': [
@@ -388,8 +394,21 @@ module Cerner
           'id': 'CI-97982588-0-0',
           'extension': [
             {
+              'valuePeriod': {
+                'start': '2016-12-19T16:44:25.000Z',
+                'end': '2022-05-01T16:56:56.000Z'
+              },
+              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+            },
+            {
               'valueCodeableconcept': {
                 'coding': [
+                  {
+                    'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                    'cod': '159',
+                    'display': 'Sister',
+                    'userSelected': true
+                  },
                   {
                     'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                     'code': 'SIS',
@@ -400,13 +419,6 @@ module Cerner
                 'text': 'Sister'
               },
               'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-            },
-            {
-              'valuePeriod': {
-                'start': '2016-12-19T16:44:25.000Z',
-                'end': '2022-05-01T16:56:56.000Z'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
             }
           ],
           'coding': [
@@ -429,8 +441,21 @@ module Cerner
           'id': 'CI-97982588-1-0',
           'extension': [
             {
+              'valuePeriod': {
+                'start': '2016-12-19T16:44:25.000Z',
+                'end': '2022-05-01T16:56:56.000Z'
+              },
+              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+            },
+            {
               'valueCodeableconcept': {
                 'coding': [
+                  {
+                    'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                    'cod': '159',
+                    'display': 'Sister',
+                    'userSelected': true
+                  },
                   {
                     'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                     'code': 'SIS',
@@ -441,13 +466,6 @@ module Cerner
                 'text': 'Sister'
               },
               'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-            },
-            {
-              'valuePeriod': {
-                'start': '2016-12-19T16:44:25.000Z',
-                'end': '2022-05-01T16:56:56.000Z'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
             }
           ],
           'coding': [
@@ -582,8 +600,21 @@ module Cerner
           'id': 'CI-58863376-0-0',
           'extension': [
             {
+              'valuePeriod': {
+                'start': '2016-12-19T16:44:25.000Z',
+                'end': '2022-05-01T16:56:56.000Z'
+              },
+              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+            },
+            {
               'valueCodeableconcept': {
                 'coding': [
+                  {
+                    'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                    'cod': '159',
+                    'display': 'Sister',
+                    'userSelected': true
+                  },
                   {
                     'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                     'code': 'SIS',
@@ -594,13 +625,6 @@ module Cerner
                 'text': 'Sister'
               },
               'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-            },
-            {
-              'valuePeriod': {
-                'start': '2016-12-19T16:44:25.000Z',
-                'end': '2022-05-01T16:56:56.000Z'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
             }
           ],
           'coding': [
@@ -617,8 +641,21 @@ module Cerner
           'id': 'CI-58863376-1-0',
           'extension': [
             {
+              'valuePeriod': {
+                'start': '2016-12-19T16:44:25.000Z',
+                'end': '2022-05-01T16:56:56.000Z'
+              },
+              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+            },
+            {
               'valueCodeableconcept': {
                 'coding': [
+                  {
+                    'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                    'cod': '159',
+                    'display': 'Sister',
+                    'userSelected': true
+                  },
                   {
                     'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                     'code': 'SIS',
@@ -629,13 +666,6 @@ module Cerner
                 'text': 'Sister'
               },
               'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-            },
-            {
-              'valuePeriod': {
-                'start': '2016-12-19T16:44:25.000Z',
-                'end': '2022-05-01T16:56:56.000Z'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
             }
           ],
           'coding': [
@@ -741,8 +771,21 @@ module Cerner
                 'id': 'CI-490068375-0-0',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -753,13 +796,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
@@ -944,8 +980,21 @@ module Cerner
                 'id': 'CI-59302320-0-0',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -956,13 +1005,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
@@ -979,8 +1021,21 @@ module Cerner
                 'id': 'CI-59302320-1-0',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -991,13 +1046,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
@@ -1020,8 +1068,21 @@ module Cerner
                 'id': 'CI-59302323-0-1',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -1032,13 +1093,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
@@ -1134,8 +1188,21 @@ module Cerner
                 'id': 'CI-60188027-0-0',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -1146,13 +1213,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
@@ -1169,8 +1229,21 @@ module Cerner
                 'id': 'CI-60187332-0-1',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -1181,13 +1254,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
@@ -1210,8 +1276,21 @@ module Cerner
                 'id': 'CI-60187327-0-2',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -1222,13 +1301,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
@@ -1245,8 +1317,21 @@ module Cerner
                 'id': 'CI-60187327-1-2',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -1257,13 +1342,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
@@ -1353,8 +1431,21 @@ module Cerner
         {
           'extension': [
             {
+              'valuePeriod': {
+                'start': '2016-12-19T16:44:25.000Z',
+                'end': '2022-05-01T16:56:56.000Z'
+              },
+              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+            },
+            {
               'valueCodeableconcept': {
                 'coding': [
+                  {
+                    'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                    'cod': '159',
+                    'display': 'Sister',
+                    'userSelected': true
+                  },
                   {
                     'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                     'code': 'SIS',
@@ -1365,13 +1456,6 @@ module Cerner
                 'text': 'Sister'
               },
               'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-            },
-            {
-              'valuePeriod': {
-                'start': '2016-12-19T16:44:25.000Z',
-                'end': '2022-05-01T16:56:56.000Z'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
             }
           ]
         }
@@ -1520,8 +1604,21 @@ module Cerner
                 'id': 'CI-97982588-0-0',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -1532,13 +1629,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
@@ -1561,8 +1651,21 @@ module Cerner
                 'id': 'CI-97982588-1-0',
                 'extension': [
                   {
+                    'valuePeriod': {
+                      'start': '2016-12-19T16:44:25.000Z',
+                      'end': '2022-05-01T16:56:56.000Z'
+                    },
+                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
+                  },
+                  {
                     'valueCodeableconcept': {
                       'coding': [
+                        {
+                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
+                          'cod': '159',
+                          'display': 'Sister',
+                          'userSelected': true
+                        },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
                           'code': 'SIS',
@@ -1573,13 +1676,6 @@ module Cerner
                       'text': 'Sister'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  },
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
                   }
                 ],
                 'coding': [
