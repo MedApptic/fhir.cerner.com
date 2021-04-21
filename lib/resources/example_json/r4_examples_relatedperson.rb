@@ -405,18 +405,18 @@ module Cerner
                 'coding': [
                   {
                     'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
-                    'cod': '159',
-                    'display': 'Sister',
+                    'cod': '155',
+                    'display': 'Mother',
                     'userSelected': true
                   },
                   {
                     'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                    'code': 'SIS',
-                    'display': 'sister',
+                    'code': 'MTH',
+                    'display': 'mother',
                     'userSelected': false
                   }
                 ],
-                'text': 'Sister'
+                'text': 'Mother'
               },
               'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
             }
@@ -436,53 +436,6 @@ module Cerner
             }
           ],
           'text': 'Default Guarantor'
-        },
-        {
-          'id': 'CI-97982588-1-0',
-          'extension': [
-            {
-              'valuePeriod': {
-                'start': '2016-12-19T16:44:25.000Z',
-                'end': '2022-05-01T16:56:56.000Z'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
-            },
-            {
-              'valueCodeableconcept': {
-                'coding': [
-                  {
-                    'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
-                    'cod': '159',
-                    'display': 'Sister',
-                    'userSelected': true
-                  },
-                  {
-                    'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                    'code': 'SIS',
-                    'display': 'sister',
-                    'userSelected': false
-                  }
-                ],
-                'text': 'Sister'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-            }
-          ],
-          'coding': [
-            {
-              'system': 'https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/40',
-              'code': '670847',
-              'display': 'Child',
-              'userSelected': true
-            },
-            {
-              'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-              'code': 'CHILD',
-              'display': 'child',
-              'userSelected': false
-            }
-          ],
-          'text': 'Child'
         }
       ],
       'name': [
@@ -612,17 +565,17 @@ module Cerner
                   {
                     'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
                     'cod': '159',
-                    'display': 'Sister',
+                    'display': 'Brother',
                     'userSelected': true
                   },
                   {
                     'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                    'code': 'SIS',
-                    'display': 'sister',
+                    'code': 'BRO',
+                    'display': 'brother',
                     'userSelected': false
                   }
                 ],
-                'text': 'Sister'
+                'text': 'Brother'
               },
               'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
             }
@@ -636,53 +589,6 @@ module Cerner
             }
           ],
           'text': 'Guardian'
-        },
-        {
-          'id': 'CI-58863376-1-0',
-          'extension': [
-            {
-              'valuePeriod': {
-                'start': '2016-12-19T16:44:25.000Z',
-                'end': '2022-05-01T16:56:56.000Z'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
-            },
-            {
-              'valueCodeableconcept': {
-                'coding': [
-                  {
-                    'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
-                    'cod': '159',
-                    'display': 'Sister',
-                    'userSelected': true
-                  },
-                  {
-                    'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                    'code': 'SIS',
-                    'display': 'sister',
-                    'userSelected': false
-                  }
-                ],
-                'text': 'Sister'
-              },
-              'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-            }
-          ],
-          'coding': [
-            {
-              'system': 'https://fhir-ehr.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/40',
-              'code': '670861',
-              'display': 'Unknown',
-              'userSelected': true
-            },
-            {
-              'system': 'http://terminology.hl7.org/CodeSystem/v2-0131',
-              'code': 'U',
-              'display': 'Unknown',
-              'userSelected': false
-            }
-          ],
-          'text': 'Unknown'
         }
       ],
       'name': [
@@ -783,17 +689,17 @@ module Cerner
                         {
                           'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
                           'cod': '159',
-                          'display': 'Sister',
+                          'display': 'Brother',
                           'userSelected': true
                         },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
+                          'code': 'BRO',
+                          'display': 'Brother',
                           'userSelected': false
                         }
                       ],
-                      'text': 'Sister'
+                      'text': 'Brother'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
                   }
@@ -991,18 +897,18 @@ module Cerner
                       'coding': [
                         {
                           'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
-                          'cod': '159',
-                          'display': 'Sister',
+                          'cod': '155',
+                          'display': 'Father',
                           'userSelected': true
                         },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
+                          'code': 'FTH',
+                          'display': 'father',
                           'userSelected': false
                         }
                       ],
-                      'text': 'Sister'
+                      'text': 'Father'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
                   }
@@ -1016,53 +922,6 @@ module Cerner
                   }
                 ],
                 'text': 'Authorized Representative'
-              },
-              {
-                'id': 'CI-59302320-1-0',
-                'extension': [
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
-                  },
-                  {
-                    'valueCodeableconcept': {
-                      'coding': [
-                        {
-                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
-                          'cod': '159',
-                          'display': 'Sister',
-                          'userSelected': true
-                        },
-                        {
-                          'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
-                          'userSelected': false
-                        }
-                      ],
-                      'text': 'Sister'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  }
-                ],
-                'coding': [
-                  {
-                    'system': 'https://fhir-ehr.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/40',
-                    'code': '155',
-                    'display': 'Father',
-                    'userSelected': true
-                  },
-                  {
-                    'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                    'code': 'FTH',
-                    'display': 'father',
-                    'userSelected': false
-                  }
-                ],
-                'text': 'Father'
               },
               {
                 'id': 'CI-59302323-0-1',
@@ -1079,18 +938,18 @@ module Cerner
                       'coding': [
                         {
                           'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
-                          'cod': '159',
-                          'display': 'Sister',
+                          'cod': '155',
+                          'display': 'Father',
                           'userSelected': true
                         },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
+                          'code': 'FTH',
+                          'display': 'father',
                           'userSelected': false
                         }
                       ],
-                      'text': 'Sister'
+                      'text': 'Father'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
                   }
@@ -1200,17 +1059,17 @@ module Cerner
                         {
                           'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
                           'cod': '159',
-                          'display': 'Sister',
+                          'display': 'Brother',
                           'userSelected': true
                         },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
+                          'code': 'BRO',
+                          'display': 'brother',
                           'userSelected': false
                         }
                       ],
-                      'text': 'Sister'
+                      'text': 'Brother'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
                   }
@@ -1241,17 +1100,17 @@ module Cerner
                         {
                           'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
                           'cod': '159',
-                          'display': 'Sister',
+                          'display': 'Brother',
                           'userSelected': true
                         },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
+                          'code': 'BRO',
+                          'display': 'brother',
                           'userSelected': false
                         }
                       ],
-                      'text': 'Sister'
+                      'text': 'Brother'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
                   }
@@ -1288,17 +1147,17 @@ module Cerner
                         {
                           'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
                           'cod': '159',
-                          'display': 'Sister',
+                          'display': 'Brother',
                           'userSelected': true
                         },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
+                          'code': 'BRO',
+                          'display': 'brother',
                           'userSelected': false
                         }
                       ],
-                      'text': 'Sister'
+                      'text': 'Brother'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
                   }
@@ -1312,53 +1171,6 @@ module Cerner
                   }
                 ],
                 'text': 'Guardian'
-              },
-              {
-                'id': 'CI-60187327-1-2',
-                'extension': [
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
-                  },
-                  {
-                    'valueCodeableconcept': {
-                      'coding': [
-                        {
-                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
-                          'cod': '159',
-                          'display': 'Sister',
-                          'userSelected': true
-                        },
-                        {
-                          'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
-                          'userSelected': false
-                        }
-                      ],
-                      'text': 'Sister'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  }
-                ],
-                'coding': [
-                  {
-                    'system': 'https://fhir-ehr.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/40',
-                    'code': '670861',
-                    'display': 'Unknown',
-                    'userSelected': true
-                  },
-                  {
-                    'system': 'http://terminology.hl7.org/CodeSystem/v2-0131',
-                    'code': 'U',
-                    'display': 'Unknown',
-                    'userSelected': false
-                  }
-                ],
-                'text': 'Unknown'
               }
             ],
             'name': [
@@ -1443,17 +1255,17 @@ module Cerner
                   {
                     'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
                     'cod': '159',
-                    'display': 'Sister',
+                    'display': 'Brother',
                     'userSelected': true
                   },
                   {
                     'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                    'code': 'SIS',
-                    'display': 'sister',
+                    'code': 'BRO',
+                    'display': 'Brother',
                     'userSelected': false
                   }
                 ],
-                'text': 'Sister'
+                'text': 'Brother'
               },
               'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
             }
@@ -1615,18 +1427,18 @@ module Cerner
                       'coding': [
                         {
                           'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
-                          'cod': '159',
-                          'display': 'Sister',
+                          'cod': '155',
+                          'display': 'Mother',
                           'userSelected': true
                         },
                         {
                           'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
+                          'code': 'MTH',
+                          'display': 'mother',
                           'userSelected': false
                         }
                       ],
-                      'text': 'Sister'
+                      'text': 'Mother'
                     },
                     'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
                   }
@@ -1646,53 +1458,6 @@ module Cerner
                   }
                 ],
                 'text': 'Default Guarantor'
-              },
-              {
-                'id': 'CI-97982588-1-0',
-                'extension': [
-                  {
-                    'valuePeriod': {
-                      'start': '2016-12-19T16:44:25.000Z',
-                      'end': '2022-05-01T16:56:56.000Z'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/period'
-                  },
-                  {
-                    'valueCodeableconcept': {
-                      'coding': [
-                        {
-                          'system': 'https://fhir.cerner.com/2c400054-42d8-4e74-87b7-80b5bd5fde9f/codeSet/40',
-                          'cod': '159',
-                          'display': 'Sister',
-                          'userSelected': true
-                        },
-                        {
-                          'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                          'code': 'SIS',
-                          'display': 'sister',
-                          'userSelected': false
-                        }
-                      ],
-                      'text': 'Sister'
-                    },
-                    'url': 'https://fhir-ehr.cerner.com/r4/StructureDefinition/relation'
-                  }
-                ],
-                'coding': [
-                  {
-                    'system': 'https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/40',
-                    'code': '670847',
-                    'display': 'Child',
-                    'userSelected': true
-                  },
-                  {
-                    'system': 'http://terminology.hl7.org/CodeSystem/v3-RoleCode',
-                    'code': 'CHILD',
-                    'display': 'child',
-                    'userSelected': false
-                  }
-                ],
-                'text': 'Child'
               }
             ],
             'name': [
